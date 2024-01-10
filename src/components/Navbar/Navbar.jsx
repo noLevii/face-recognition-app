@@ -15,7 +15,7 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          FaceApp <CameraFrontIcon />
+          Pase de lista con reconocimiento facial ver 1.a <CameraFrontIcon />
         </h1>
         <div className="menu-icon" onClick={this.handleClick}>
           <i
