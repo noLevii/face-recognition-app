@@ -83,7 +83,14 @@ const Home = () => {
     pred.print();
     console.log("Finalización de predicción");
 
-    const faces = ["Gustavo", "Jair", "Karime", "Luis", "Martín", "Sebastián"];
+    const faces = [
+      "Ethan Sullivan",
+      "Jackson Bennett",
+      "Olivia Rodriguez",
+      "Liam Thompson",
+      "Mason Parker",
+      "Caleb Morgan",
+    ];
 
     pred.data().then((data) => {
       console.log(data);
