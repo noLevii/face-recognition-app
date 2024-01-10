@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="names">リヴァイとざんどれ</div>
+      <div className="names">®copyright 2024 all rights reserved</div>
     </div>
   );
 };
